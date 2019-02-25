@@ -1,11 +1,12 @@
 // 入口文件
 import Vue from 'vue'
 
-import { Header,Swipe,SwipeItem } from 'mint-ui';
+import { Header,Swipe,SwipeItem,Button} from 'mint-ui';
 
 Vue.component(Header.name, Header);
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Button.name,Button);
 //导入vue router
 import VueRouter from 'vue-router'
 //安装路由
